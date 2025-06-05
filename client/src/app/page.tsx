@@ -5,7 +5,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section with gradient background */}
-      <div className="relative overflow-hidden bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-100 dark:from-purple-950 dark:via-blue-950 dark:to-indigo-950">
+      <div className="min-h-screen relative overflow-hidden bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-100 dark:from-purple-950 dark:via-blue-950 dark:to-indigo-950">
         {/* Floating shapes for visual interest */}
         <div className="absolute top-20 left-10 w-32 h-32 bg-purple-200 dark:bg-purple-800 rounded-full opacity-20 animate-pulse"></div>
         <div className="absolute top-40 right-20 w-20 h-20 bg-blue-200 dark:bg-blue-800 rounded-full opacity-30 animate-bounce"></div>
